@@ -21,230 +21,586 @@
   "images": {
     "profile-picture": {
       "file": "images/profile-picture.png",
-      "size": [1000, 1000],
+      "size": [
+        1000,
+        1000
+      ],
       "layout": "profile",
       "scene": "scenes/profile.png",
-      "lines": ["مشبات وأفران", "الرياض"]
+      "lines": [
+        "مشبات وأفران",
+        "الرياض"
+      ]
     },
     "cover-haraj": {
       "file": "images/cover-haraj.png",
-      "size": [1500, 500],
+      "size": [
+        1500,
+        500
+      ],
       "layout": "cover",
-      "scenes": ["scenes/cover-left.png", "scenes/cover-right.png"],
-      "lines": ["معلم مباني — الرياض", "مشبات وأفران", "0531060401"]
+      "scenes": [
+        "scenes/cover-left.png",
+        "scenes/cover-right.png"
+      ],
+      "lines": [
+        "معلم مباني — الرياض",
+        "مشبات وأفران",
+        "0531060401"
+      ]
     },
     "business-card": {
       "file": "images/business-card.png",
-      "size": [1050, 650],
+      "size": [
+        1050,
+        650
+      ],
       "layout": "card",
       "scene": "scenes/card-texture.png",
-      "lines": ["معلم مباني ومشبات وأفران", "الرياض", "0531060401"]
+      "lines": [
+        "معلم مباني ومشبات وأفران",
+        "الرياض",
+        "0531060401"
+      ]
     },
     "site-sign": {
       "file": "images/site-sign.png",
-      "size": [1500, 1000],
+      "size": [
+        1500,
+        1000
+      ],
       "layout": "sign",
       "scene": "scenes/sign-texture.png",
-      "lines": ["معلم مباني ومشبات وأفران", "الرياض", "0531060401"]
+      "lines": [
+        "معلم مباني ومشبات وأفران",
+        "الرياض",
+        "0531060401"
+      ]
     },
-
     "winter-01-majlis": {
       "file": "images/posts/winter-01-majlis.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/winter-01-majlis.png",
-      "lines": ["جهّز مشبتك قبل البرد", "مشبات حطب — الرياض"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/winter-01-majlis.png",
+      "lines": [
+        "جهّز مشبتك قبل البرد",
+        "مشبات حطب — الرياض"
+      ]
     },
     "winter-02-brick": {
       "file": "images/posts/winter-02-brick.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/winter-02-brick.png",
-      "lines": ["مشبات طوب وحجارة", "على يد معلم مباني"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/winter-02-brick.png",
+      "lines": [
+        "مشبات طوب وحجارة",
+        "على يد معلم مباني"
+      ]
     },
     "winter-03-yard": {
       "file": "images/posts/winter-03-yard.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/winter-03-yard.png",
-      "lines": ["في البيت والحوش والمزرعة", "الرياض"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/winter-03-yard.png",
+      "lines": [
+        "في البيت والحوش والمزرعة",
+        "الرياض"
+      ]
     },
     "oven-01-clay": {
       "file": "images/posts/oven-01-clay.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/oven-01-clay.png",
-      "lines": ["فرن طين يجمع العيلة", "خبز ومندي"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/oven-01-clay.png",
+      "lines": [
+        "فرن طين يجمع العيلة",
+        "خبز ومندي"
+      ]
     },
     "oven-02-firebrick": {
       "file": "images/posts/oven-02-firebrick.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/oven-02-firebrick.png",
-      "lines": ["أفران طين وحجارة وطوب", "الرياض"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/oven-02-firebrick.png",
+      "lines": [
+        "أفران طين وحجارة وطوب",
+        "الرياض"
+      ]
     },
     "oven-03-size": {
       "file": "images/posts/oven-03-size.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/oven-03-size.png",
-      "lines": ["الحجم على مكانك", "أرسل صورة وأعطيك السعر"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/oven-03-size.png",
+      "lines": [
+        "الحجم على مكانك",
+        "أرسل صورة وأعطيك السعر"
+      ]
     },
     "brick-oven-01": {
       "file": "images/posts/brick-oven-01.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/brick-oven-01.png",
-      "lines": ["فرن ومنضدة بطوب", "شغل يد مرتب"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/brick-oven-01.png",
+      "lines": [
+        "فرن ومنضدة بطوب",
+        "شغل يد مرتب"
+      ]
     },
     "brick-oven-02": {
       "file": "images/posts/brick-oven-02.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/brick-oven-02.png",
-      "lines": ["طوب حراري", "على مقاس المكان"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/brick-oven-02.png",
+      "lines": [
+        "طوب حراري",
+        "على مقاس المكان"
+      ]
     },
     "brick-oven-03": {
       "file": "images/posts/brick-oven-03.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/brick-oven-03.png",
-      "lines": ["للبيت والاستراحة", "الرياض"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/brick-oven-03.png",
+      "lines": [
+        "للبيت والاستراحة",
+        "الرياض"
+      ]
     },
-
     "story-winter-01": {
       "file": "images/story-winter-01.png",
-      "size": [1080, 1920], "layout": "story", "scene": "scenes/story-winter-01.png",
-      "lines": ["جهّز مشبتك قبل البرد", "معلم مباني ومشبات وأفران"]
+      "size": [
+        1080,
+        1920
+      ],
+      "layout": "story",
+      "scene": "scenes/story-winter-01.png",
+      "lines": [
+        "جهّز مشبتك قبل البرد",
+        "معلم مباني ومشبات وأفران"
+      ]
     },
     "story-oven-02": {
       "file": "images/story-oven-02.png",
-      "size": [1080, 1920], "layout": "story", "scene": "scenes/story-oven-02.png",
-      "lines": ["فرن حطب للبيت والمزرعة", "معلم مباني ومشبات وأفران"]
+      "size": [
+        1080,
+        1920
+      ],
+      "layout": "story",
+      "scene": "scenes/story-oven-02.png",
+      "lines": [
+        "فرن حطب للبيت والمزرعة",
+        "معلم مباني ومشبات وأفران"
+      ]
     },
     "story-number-03": {
       "file": "images/story-number-03.png",
-      "size": [1080, 1920], "layout": "story", "scene": "scenes/card-texture.jpg",
+      "size": [
+        1080,
+        1920
+      ],
+      "layout": "story",
+      "scene": "scenes/card-texture.jpg",
       "blur": 7,
-      "lines": ["مشبات وأفران — الرياض", "معلم مباني ومشبات وأفران"]
+      "lines": [
+        "مشبات وأفران — الرياض",
+        "معلم مباني ومشبات وأفران"
+      ]
     },
-
     "services-01": {
       "file": "images/posts/services-01.png",
-      "size": [1080, 1080], "layout": "grid4",
-      "scenes": ["scenes/winter-01-majlis.jpg", "scenes/oven-01-clay.jpg", "scenes/winter-02-brick.jpg", "scenes/oven-02-firebrick.jpg"],
-      "lines": ["معلم مباني ومشبات وأفران", "مشبة • فرن • جدار • فاصل"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "grid4",
+      "scenes": [
+        "scenes/winter-01-majlis.jpg",
+        "scenes/oven-01-clay.jpg",
+        "scenes/winter-02-brick.jpg",
+        "scenes/oven-02-firebrick.jpg"
+      ],
+      "lines": [
+        "معلم مباني ومشبات وأفران",
+        "مشبة • فرن • جدار • فاصل"
+      ]
     },
     "services-02": {
       "file": "images/posts/services-02.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/services-02.png",
-      "lines": ["معلم مباني ومشبات وأفران", "مشبة • فرن • جدار • فاصل"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/services-02.png",
+      "lines": [
+        "معلم مباني ومشبات وأفران",
+        "مشبة • فرن • جدار • فاصل"
+      ]
     },
     "services-03": {
       "file": "images/posts/services-03.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/services-03.png",
-      "lines": ["معلم مباني ومشبات وأفران", "مشبة • فرن • جدار • فاصل"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/services-03.png",
+      "lines": [
+        "معلم مباني ومشبات وأفران",
+        "مشبة • فرن • جدار • فاصل"
+      ]
     },
-
     "farms-01": {
       "file": "images/posts/farms-01.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/farms-01.png",
-      "lines": ["للمزارع والاستراحات", "الخرج • المزاحمية • رماح • الحوطة"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/farms-01.png",
+      "lines": [
+        "للمزارع والاستراحات",
+        "الخرج • المزاحمية • رماح • الحوطة"
+      ]
     },
     "farms-02": {
       "file": "images/posts/farms-02.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/farms-02.png",
-      "lines": ["للمزارع والاستراحات", "الخرج • المزاحمية • رماح • الحوطة"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/farms-02.png",
+      "lines": [
+        "للمزارع والاستراحات",
+        "الخرج • المزاحمية • رماح • الحوطة"
+      ]
     },
     "farms-03": {
       "file": "images/posts/farms-03.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/farms-03.png",
-      "lines": ["للمزارع والاستراحات", "الخرج • المزاحمية • رماح • الحوطة"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/farms-03.png",
+      "lines": [
+        "للمزارع والاستراحات",
+        "الخرج • المزاحمية • رماح • الحوطة"
+      ]
     },
-
     "night-01": {
       "file": "images/posts/night-01.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/night-01.png",
-      "lines": ["ليالي الشتاء أحلى مع مشبة", "مدخنة مضبوطة"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/night-01.png",
+      "lines": [
+        "ليالي الشتاء أحلى مع مشبة",
+        "مدخنة مضبوطة"
+      ]
     },
     "night-02": {
       "file": "images/posts/night-02.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/night-02.png",
-      "lines": ["ليالي الشتاء أحلى مع مشبة", "مدخنة مضبوطة"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/night-02.png",
+      "lines": [
+        "ليالي الشتاء أحلى مع مشبة",
+        "مدخنة مضبوطة"
+      ]
     },
     "night-03": {
       "file": "images/posts/night-03.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/night-03.png",
-      "lines": ["ليالي الشتاء أحلى مع مشبة", "مدخنة مضبوطة"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/night-03.png",
+      "lines": [
+        "ليالي الشتاء أحلى مع مشبة",
+        "مدخنة مضبوطة"
+      ]
     },
-
     "prices-01": {
       "file": "images/posts/prices-01.png",
-      "size": [1080, 1080], "layout": "prices", "scene": "scenes/card-texture.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "prices",
+      "scene": "scenes/card-texture.png",
       "title": "الأسعار حسب الحجم والمساحة",
       "rows": [
-        ["مشبة طوب أو حجر", "تبدأ من 1500"],
-        ["طوب حراري", "2000–6000"],
-        ["رخام", "3000–15000"],
-        ["فرن", "حسب الحجم — أرسل صورة"],
-        ["جدران", "سعر المتر من البداية"]
+        [
+          "مشبة طوب أو حجر",
+          "تبدأ من 1500"
+        ],
+        [
+          "طوب حراري",
+          "2000–6000"
+        ],
+        [
+          "رخام",
+          "3000–15000"
+        ],
+        [
+          "فرن",
+          "حسب الحجم — أرسل صورة"
+        ],
+        [
+          "جدران",
+          "سعر المتر من البداية"
+        ]
       ],
-      "foot": ["الرياض", "0531060401"]
+      "foot": [
+        "الرياض",
+        "0531060401"
+      ]
     },
     "prices-02": {
       "file": "images/posts/prices-02.png",
-      "size": [1080, 1080], "layout": "focus", "scene": "scenes/winter-02-brick.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "focus",
+      "scene": "scenes/winter-02-brick.png",
       "kicker": "مشبة طوب أو حجر",
       "hero": "تبدأ من 1500",
-      "lines": ["الأسعار حسب الحجم والمساحة", "الرياض"]
+      "lines": [
+        "الأسعار حسب الحجم والمساحة",
+        "الرياض"
+      ]
     },
     "prices-03": {
       "file": "images/posts/prices-03.png",
-      "size": [1080, 1080], "layout": "focus", "scene": "scenes/oven-01-clay.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "focus",
+      "scene": "scenes/oven-01-clay.png",
       "kicker": "الفرن",
       "hero": "حسب الصورة",
-      "lines": ["أرسل صورة المكان وأعطيك السعر", "الرياض"]
+      "lines": [
+        "أرسل صورة المكان وأعطيك السعر",
+        "الرياض"
+      ]
     },
-
     "walls-01": {
       "file": "images/posts/walls-01.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/walls-01.png",
-      "lines": ["بناء جدران وفواصل", "سعر المتر نتفق عليه من البداية"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/walls-01.png",
+      "lines": [
+        "بناء جدران وفواصل",
+        "سعر المتر نتفق عليه من البداية"
+      ]
     },
     "walls-02": {
       "file": "images/posts/walls-02.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/walls-02.png",
-      "lines": ["بناء جدران وفواصل", "سعر المتر نتفق عليه من البداية"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/walls-02.png",
+      "lines": [
+        "بناء جدران وفواصل",
+        "سعر المتر نتفق عليه من البداية"
+      ]
     },
     "walls-03": {
       "file": "images/posts/walls-03.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/walls-03.png",
-      "lines": ["بناء جدران وفواصل", "سعر المتر نتفق عليه من البداية"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/walls-03.png",
+      "lines": [
+        "بناء جدران وفواصل",
+        "سعر المتر نتفق عليه من البداية"
+      ]
     },
-
     "grill-01": {
       "file": "images/posts/grill-01.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/grill-01.png",
-      "lines": ["شويات ومناقل وحفر مندي", "حسب الطلب"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/grill-01.png",
+      "lines": [
+        "شويات ومناقل وحفر مندي",
+        "حسب الطلب"
+      ]
     },
     "grill-02": {
       "file": "images/posts/grill-02.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/grill-02.png",
-      "lines": ["شويات ومناقل وحفر مندي", "حسب الطلب"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/grill-02.png",
+      "lines": [
+        "شويات ومناقل وحفر مندي",
+        "حسب الطلب"
+      ]
     },
     "grill-03": {
       "file": "images/posts/grill-03.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/grill-03.png",
-      "lines": ["شويات ومناقل وحفر مندي", "حسب الطلب"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/grill-03.png",
+      "lines": [
+        "شويات ومناقل وحفر مندي",
+        "حسب الطلب"
+      ]
     },
-
     "price-question-01": {
       "file": "images/posts/price-question-01.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/winter-01-majlis.jpg",
-      "lines": ["كم تكلف المشبة؟", "تبدأ من 1500 — والحجم يغيّر السعر"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/winter-01-majlis.jpg",
+      "lines": [
+        "كم تكلف المشبة؟",
+        "تبدأ من 1500 — والحجم يغيّر السعر"
+      ]
     },
     "price-question-02": {
       "file": "images/posts/price-question-02.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/oven-02-firebrick.jpg",
-      "lines": ["كم تكلف المشبة؟", "أرسل صورة مكانك وأعطيك السعر"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/oven-02-firebrick.jpg",
+      "lines": [
+        "كم تكلف المشبة؟",
+        "أرسل صورة مكانك وأعطيك السعر"
+      ]
     },
     "why-mason-01": {
       "file": "images/posts/why-mason-01.png",
-      "size": [1080, 1080], "layout": "post", "scene": "scenes/winter-02-brick.jpg",
-      "lines": ["أشتغل بيدي", "مشبة • فرن • جدار"]
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "post",
+      "scene": "scenes/winter-02-brick.jpg",
+      "lines": [
+        "أشتغل بيدي",
+        "مشبة • فرن • جدار"
+      ]
     },
     "real-work-01": {
       "file": "images/posts/real-work-01.png",
-      "size": [1080, 1080], "layout": "real", "scene": "images/raw/real-oven-brick.jpg",
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "real",
+      "scene": "images/raw/real-oven-brick.jpg",
       "lines": []
     },
     "before-after-frame": {
       "file": "images/posts/before-after-frame.png",
-      "size": [1080, 1080], "layout": "frame",
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "frame",
       "caption": "ضع صور الشغل الحقيقية هنا",
-      "labels": ["قبل", "بعد"]
+      "labels": [
+        "قبل",
+        "بعد"
+      ]
+    },
+    "royal-02": {
+      "file": "images/posts/royal-02.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "real",
+      "scene": "scenes/royal-02.jpg",
+      "lines": []
+    },
+    "royal-03": {
+      "file": "images/posts/royal-03.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "real",
+      "scene": "scenes/royal-03.jpg",
+      "lines": []
+    },
+    "royal-04": {
+      "file": "images/posts/royal-04.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "layout": "real",
+      "scene": "scenes/royal-04.jpg",
+      "lines": []
+    },
+    "hero-royal": {
+      "file": "images/hero-royal.png",
+      "size": [
+        1600,
+        900
+      ],
+      "layout": "real",
+      "scene": "scenes/royal-01.jpg",
+      "lines": []
     }
   }
 }
