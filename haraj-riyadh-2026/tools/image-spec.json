@@ -235,6 +235,11 @@
       "size": [1080, 1080], "layout": "post", "scene": "scenes/winter-02-brick.jpg",
       "lines": ["أشتغل بيدي", "مشبة • فرن • جدار"]
     },
+    "real-work-01": {
+      "file": "images/posts/real-work-01.png",
+      "size": [1080, 1080], "layout": "real", "scene": "images/raw/real-oven-brick.jpg",
+      "lines": []
+    },
     "before-after-frame": {
       "file": "images/posts/before-after-frame.png",
       "size": [1080, 1080], "layout": "frame",

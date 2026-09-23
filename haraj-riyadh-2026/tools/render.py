@@ -598,6 +598,16 @@ def layout_frame(spec: dict) -> Image.Image:
     return im
 
 
+def layout_real(spec: dict) -> Image.Image:
+    """صورة الشغل الحقيقية: بلا أي نص تسويقي — العلامة المائية فقط،
+    والأصل يبقى بلا تعديل في images/raw/."""
+    w, h = spec["size"]
+    im = base_canvas(None, spec)
+    diagonal_repeat(im, 0.15)
+    watermark_strip(im)
+    return im
+
+
 LAYOUTS = {
     "post": layout_post,
     "story": layout_story,
@@ -609,6 +619,7 @@ LAYOUTS = {
     "focus": layout_focus,
     "grid4": layout_grid4,
     "frame": layout_frame,
+    "real": layout_real,
 }
 
 
